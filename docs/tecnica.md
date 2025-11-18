@@ -1,4 +1,4 @@
-# Documentación Técnica - Licitar
+# Documentación Técnica - Licitaciones
 
 ## Índice
 
