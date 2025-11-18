@@ -1,4 +1,4 @@
-# Licitar
+# Plataforma de Licitaciones
 
 Sistema de gestión de licitaciones desarrollado en Rust con Actix-Web. Permite a compradores crear y gestionar licitaciones, y a proveedores participar con ofertas. Incluye sistema de autenticación, notificaciones en tiempo real vía WebSocket, y algoritmo inteligente de matching de proveedores.
 
@@ -193,7 +193,7 @@ Principales dependencias:
 1. **Crear archivo `.env`** en la raíz del proyecto:
 
 ```env
-DATABASE_URL=postgres://usuario:contraseña@localhost:5432/licitar
+DATABASE_URL=postgres://usuario:contraseña@localhost:5432/licitaciones
 RUST_LOG=info
 
 # Email Configuration
@@ -203,7 +203,7 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=tu_email@gmail.com
 SMTP_PASSWORD=tu_app_password
-EMAIL_FROM=noreply@licitar.com
+EMAIL_FROM=noreply@licitaciones.com
 EMAIL_FROM_NAME=Licit.ar
 EMAIL_BASE_URL=http://localhost:3000
 
@@ -214,7 +214,7 @@ RESEND_API_KEY=re_xxxxxxxxxxxxx  # Opcional, si se usa Resend en lugar de SMTP
 2. **Configurar la base de datos**:
 
 ```sql
-CREATE DATABASE licitar;
+CREATE DATABASE licitaciones;
 ```
 
 3. **Ejecutar migraciones** (si aplica):
@@ -223,7 +223,7 @@ CREATE DATABASE licitar;
 sqlx migrate run
 ```
 
-O importar el schema desde `licitar_schema_only_dump.sql`.
+O importar el schema desde `licitaciones_schema_only_dump.sql`.
 
 ---
 
@@ -249,7 +249,7 @@ RUST_LOG=debug cargo run
 cargo build --release
 
 # Ejecutar el binario
-./target/release/licitar
+./target/release/licitaciones
 ```
 
 El servidor inicia en `http://localhost:4000` por defecto.
@@ -265,7 +265,7 @@ cargo test
 ## Estructura del Proyecto
 
 ```
-licitar/
+licitaciones/
 ├── src/
 │   ├── main.rs                 # Punto de entrada, configuración del servidor
 │   ├── handlers/               # Handlers HTTP/WebSocket
