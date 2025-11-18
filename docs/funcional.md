@@ -1,4 +1,4 @@
-# Documentación Funcional - Licitar
+# Documentación Funcional - Licitaciones
 
 ## Índice
 
@@ -13,7 +13,7 @@
 
 ## Introducción
 
-**Licitar** es un sistema de gestión de licitaciones que permite a organizaciones (compradores) publicar licitaciones y recibir ofertas de proveedores. El sistema incluye matching inteligente de proveedores, notificaciones en tiempo real, sistema de jerarquía de usuarios, gestión de empresas, y auditoría completa.
+**Licitaciones** es un sistema de gestión de licitaciones que permite a organizaciones (compradores) publicar licitaciones y recibir ofertas de proveedores. El sistema incluye matching inteligente de proveedores, notificaciones en tiempo real, sistema de jerarquía de usuarios, gestión de empresas, y auditoría completa.
 
 ---
 
