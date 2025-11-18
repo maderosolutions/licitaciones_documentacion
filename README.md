@@ -324,9 +324,6 @@ licitar/
 - **[Documentación Técnica](docs/tecnica.md)**: Arquitectura, diseño, APIs, base de datos
 - **[Documentación Funcional](docs/funcional.md)**: Casos de uso, flujos, reglas de negocio
 - **[Algoritmo de Pool de Proveedores](docs/algoritmo_vendor_pool.md)**: Documentación detallada del algoritmo de matching
-- **[Cambios para Frontend](docs/cambios_frontend.md)**: Resumen de cambios implementados
-- **[Directorio de Proveedores](docs/directorio_proveedores.md)**: Endpoint y funcionalidades del directorio
-- **[Configuración de Emails](docs/email_setup.md)**: Setup y configuración del sistema de emails
 
 ---
 ### Convenciones de Código
